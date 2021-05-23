@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text reorder</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <center>
+      <h3 style="margin-top: 20px; margin-bottom: 20px">
+        Reorder the text in the text input
+      </h3>
+      <div>
+        <span>1</span>
+        <input type="text" placeholder="Enter text here" id="text_1" />
+        <br />
+        <span>2</span>
+        <input type="text" placeholder="Enter text here" id="text_2" />
+        <br />
+        <span>3</span>
+        <input type="text" placeholder="Enter text here" id="text_3" />
+        <br />
+        <span>4</span>
+        <input type="text" placeholder="Enter text here" id="text_4" />
+        <br />
+      </div>
+      <button onclick="submit()" id="submit_button">Submit</button>
+      <div id="display_text" style="font-weight: bold"></div>
+
+      <button onclick="sorting()" id="sort_button">Sort</button>
+    </center>
+  </body>
+</html>
